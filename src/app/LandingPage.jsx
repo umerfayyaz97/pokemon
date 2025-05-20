@@ -1,8 +1,13 @@
 import Image from "next/image";
+import Head from "next/head";
 
 export default function LandingPage() {
   return (
     <div className="max-w-screen overflow-x-hidden">
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <title>House of Tran</title>
+      </Head>
       <section className="relative w-full h-100">
         {/* Background Image */}
         <Image
